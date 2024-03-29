@@ -13,9 +13,9 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = 'HomeTheatre'
-BUILDERNAME = 'HomeTheatre'
-EXCLUDES = [ADDON_ID, 'repository.all']
+ADDONTITLE = 'Maya'
+BUILDERNAME = 'Maya'
+EXCLUDES = [ADDON_ID, 'repository.maya']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
 BUILDFILE = 'http://'
 # How often you would like it to check for build updates in days
@@ -96,11 +96,11 @@ AUTOUPDATE = 'Yes'
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'Yes'
 # Addon ID for the repository
-REPOID = 'repository.all'
+REPOID = 'repository.maya'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/homestreamer/repository.all/master/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/homestreamer/repository.maya/master/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/homestreamer/repository.all/master/zips/repository.openwizard/'
+REPOZIPURL = 'https://raw.githubusercontent.com/homestreamer/repository.maya/master/zips/repository.maya/'
 #########################################################
 
 #########################################################
